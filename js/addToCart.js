@@ -1,24 +1,7 @@
 export let cart = JSON.parse(localStorage.getItem("cart"));
 
 if (!cart) {
-  cart = [
-    {
-      img: "images/product-1.png",
-      price: 50,
-      id: 11111,
-      productName: "Product 1",
-      quantity: 1,
-      name: "Nordic Chair",
-    },
-    {
-      img: "images/product-2.png",
-      price: 78,
-      id: 22222,
-      productName: "Product 2",
-      quantity: 1,
-      name: "Kruzo Aero Chair",
-    },
-  ];
+  cart = [];
 }
 
 function saveToLocalStorage() {
