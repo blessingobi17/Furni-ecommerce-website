@@ -159,14 +159,13 @@ nav {
 
 .intro-img {
   position: relative;
-  background: url(/furni-1.0.0/images/dots-light.svg) no-repeat center
-    center/cover;
+  background: url(../images/dots-light.svg) no-repeat center center/cover;
   height: 250px;
   width: 250px;
 }
 
 .couch {
-  background: url(/furni-1.0.0/images/couch.png) no-repeat center center/cover;
+  background: url(../images/couch.png) no-repeat center center/cover;
   position: absolute;
   right: 0;
   top: -2rem;
