@@ -1,0 +1,58 @@
+export const products = [
+  {
+    img: "images/product-1.png",
+    name: "Nordic Chair",
+    price: 50,
+    id: 11111,
+    productName: "Product 1",
+  },
+  {
+    img: "images/product-2.png",
+    name: "Kruzo Aero Chair",
+    price: 78,
+    id: 22222,
+    productName: "Product 2",
+  },
+  {
+    img: "images/product-3.png",
+    name: "Ergonomic Chair",
+    price: 43,
+    id: 33333,
+    productName: "Product 3",
+  },
+  {
+    img: "images/product-4.png",
+    name: "Modern Chair",
+    price: 60,
+    id: 44444,
+    productName: "Product 4",
+  },
+  {
+    img: "images/product-5.png",
+    name: "Parsons Chair",
+    price: 40,
+    id: 55555,
+    productName: "Product 5",
+  },
+  {
+    img: "images/product-6.png",
+    name: "Accent Chair",
+    price: 39,
+    id: 66666,
+    productName: "Product 6",
+  },
+  {
+    img: "images/product-7.png",
+    name: "Cantilever Chair",
+    price: 55,
+    id: 77777,
+    productName: "Product 7",
+  },
+  {
+    img: "images/product-8.png",
+    name: "Lounge Chair",
+    price: 84,
+    id: 88888,
+    productName: "Product 8",
+  },
+];
