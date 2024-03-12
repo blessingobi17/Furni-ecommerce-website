@@ -603,6 +603,18 @@ footer {
     width: 100%;
   }
 
+  .names {
+    flex-direction: column;
+  }
+
+  .names div {
+    width: 100%;
+  }
+
+  .other-infos {
+    grid-template-columns: repeat(1, 100%);
+  }
+
   .coupon-code,
   .your-order {
     padding: 1rem;
