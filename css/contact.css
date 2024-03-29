@@ -441,32 +441,6 @@ footer {
   gap: 80px;
 }
 
-.footer-bottom-info {
-  display: flex;
-  width: 100%;
-  justify-content: space-between;
-  color: var(--dark);
-  align-items: center;
-  border-top: 1px solid var(--body_color);
-  margin-top: 5rem;
-  padding-top: 1rem;
-}
-
-.copyright {
-  width: 45%;
-}
-
-.footer-bottom-info ul {
-  display: flex;
-  gap: 20px;
-}
-
-.footer-bottom-info a {
-  text-decoration: none;
-  list-style: none;
-  color: var(--dark);
-}
-
 /* RESPONSIVE CSS */
 @media (max-width: 767px) {
   header {
@@ -652,16 +626,6 @@ footer {
   .footer-lists li {
     padding: 0.5rem 0;
   }
-
-  .footer-bottom-info {
-    flex-direction: column;
-    width: 100%;
-    text-align: center;
-  }
-
-  .copyright {
-    width: 100%;
-  }
 }
 
 @media (min-width: 768px) and (max-width: 884px) {
@@ -759,14 +723,5 @@ footer {
     width: 45%;
     display: flex;
     justify-content: space-between;
-  }
-
-  .footer-bottom-info {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .copyright {
-    width: 100%;
   }
 }
