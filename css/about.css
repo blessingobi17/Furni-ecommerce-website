@@ -226,8 +226,7 @@ nav {
 }
 
 .third-section-image-bg {
-  background: url(/personal-project/furni-1.0.0/images/dots-yellow.svg)
-    no-repeat center center/cover;
+  background: url(../images/dots-yellow.svg) no-repeat center center/cover;
   height: 250px;
   width: 250px;
   transform: translateY(-70px);
