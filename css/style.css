@@ -350,39 +350,36 @@ nav {
   height: 250px;
   width: 30%;
   transform: translateY(-70px);
+  position: absolute;
 }
 
 .fourth-section-image {
   display: flex;
-  position: absolute;
-  left: 80px;
-  top: 20px;
-  width: 100%;
-  gap: 20px;
+  position: relative;
+  justify-content: space-between;
+  padding-left: 5rem;
+  width: 90%;
 }
 
 .img-grid-1 {
   height: 500px;
   border-radius: 20px;
-}
-
-.double-grid {
-  display: flex;
-  flex-direction: column;
-  align-items: end;
-  transform: translateX(-40%);
+  width: 65%;
 }
 
 .img-grid-2 {
   height: 200px;
   border-radius: 20px;
-  margin-bottom: 10px;
+  margin-bottom: 25px;
+  width: 30%;
 }
 
 .img-grid-3 {
   height: 400px;
   border-radius: 20px;
-  margin-top: 10px;
+  position: absolute;
+  right: 0;
+  bottom: -25%;
 }
 
 .fourth-section-text {
@@ -893,48 +890,39 @@ footer {
 
   .fourth-container {
     flex-direction: column;
-    justify-content: space-between;
     width: 100%;
     padding: 15rem 1rem 5rem 1rem;
   }
 
   .fourth-section-bg {
-    position: relative;
     width: 100%;
   }
 
   .fourth-section {
     height: 220px;
-    width: 60%;
+    width: 55%;
     transform: translateY(0);
     transform: translateX(-1rem);
   }
 
   .fourth-section-image {
-    left: 0;
-    transform: translateY(2rem);
+    padding-left: 0;
+    width: 100%;
+    transform: translateY(3rem);
   }
 
   .img-grid-1 {
-    height: 280px;
-    position: absolute;
-    left: 0;
-  }
-
-  .double-grid {
-    flex-direction: column;
-    transform: translateX(0);
-    position: absolute;
-    right: 0;
+    height: 300px;
   }
 
   .img-grid-2 {
     height: 100px;
-    width: 60%;
   }
 
   .img-grid-3 {
     height: 220px;
+    border-radius: 20px;
+    bottom: -12%;
   }
 
   .fourth-section-text {
@@ -1170,18 +1158,31 @@ footer {
   }
 
   .fourth-section {
-    width: 35%;
+    height: 300px;
+    width: 40%;
     transform: translateY(0);
-    transform: translateX(-2rem);
+    transform: translateX(-2.5rem);
   }
 
   .fourth-section-image {
-    left: 0;
-    top: 50%;
+    padding-left: 0;
+    width: 100%;
+    transform: translateY(5rem);
   }
 
   .img-grid-1 {
-    width: 500px;
+    height: 500px;
+    width: 65%;
+  }
+
+  .img-grid-2 {
+    height: 200px;
+    width: 30%;
+  }
+
+  .img-grid-3 {
+    height: 400px;
+    bottom: -28%;
   }
 
   .fourth-section-text {
